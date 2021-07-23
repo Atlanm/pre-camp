@@ -1,20 +1,4 @@
-﻿var p_tag = "<p>";
-var rtl_p_tag = "<p style='direction:rtl; text-align: right'>";
-
-// Check for RTL paragraphs: paragraphs that start with a character
-// from an RTL script.
-// RTL scripts are: Arabic, Hebrew, Syriac, Thaana
-// Unicode ranges reference: http://www.ssec.wisc.edu/~tomw/java/unicode.html
-var first_char = str.charCodeAt(str.search(/\S/)); //first non-white-space char
-if(first_char >= 1424 && first_char <= 1983) 
-{
-    p_tag = rtl_p_tag;
-}
-
-    str = _RunSpanGamut(str);
-    str = str.replace(/^([ \t]*)/g, p_tag);
-                                           
- # الگوريتم جستجوي Naive:
+﻿ <div dir:"rtl"> # الگوريتم جستجوي Naive:
 اين الگوريتم ساده ترين روش براي پيدا کردن يک الگو و محل تکرار آن در داخل يک متن مي باشد. که با پيمايش کل حالت هاي ممکن محل اولين کارکتر الگوي تکرار شده را برمي گرداند.
 ## نحوه عملکرد الگوريتم:
 ين الگوريتم ابتدا با پيمايش همه کارکتر هاي موجود در متن و مقايسه تک تک کارکتر هاي متن با کارکتر هاي الگو مقايسه براي يافتن الگوي ارائه شده در متن را انجام مي دهد.
@@ -22,7 +6,7 @@ if(first_char >= 1424 && first_char <= 1983)
 با تطابق کارکتر هاي الگو و کارکتر هاي متن index مربوط به اولين کارکتر الگوي موجود در متن را برميگرداند.
 
 به عبارت ديگر با مقايسه همه کارکتر هاي الگوي P(1,...,m) با متن T(1,...,n) و در هر مرحله با کام پيمايش i روي متن T(i,...,m+i) درستي يا نادرستي تطابق ميان الگو و متن بدست خواهد آمد.
-
+</div>
 ```
 
 NAIVE-STRING-MATCHER (T, P)
