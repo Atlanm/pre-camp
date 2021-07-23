@@ -1,5 +1,5 @@
 ﻿ <div dir="rtl">
-  
+
   # الگوريتم جستجوي Naive:
 اين الگوريتم ساده ترين روش براي پيدا کردن يک الگو و محل تکرار آن در داخل يک متن مي باشد. که با پيمايش کل حالت هاي ممکن محل اولين کارکتر الگوي تکرار شده را برمي گرداند.
 ## نحوه عملکرد الگوريتم:
@@ -32,7 +32,7 @@ then print "Pattern occurs with shift"
 در مثال زير نتيجه عملکرد الگوريتم نشان داده شده است:
   </div>
  
- 1[temp](https://miro.medium.com/max/1398/1*V9cSmKN2Hha3YB9QJfbZcA.jpeg)
+ ![temp](https://miro.medium.com/max/1398/1*V9cSmKN2Hha3YB9QJfbZcA.jpeg)
   
 <div dir="rtl">  
 ورودي:
@@ -43,6 +43,7 @@ pattern: “ABC”
 <div dir="rtl">
 خروجي:
 </div>
+
 Pattern found at position: 4
 
 Pattern found at position: 10
