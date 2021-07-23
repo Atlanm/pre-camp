@@ -31,6 +31,9 @@ then print "Pattern occurs with shift"
 
 در مثال زير نتيجه عملکرد الگوريتم نشان داده شده است:
   </div>
+ 
+ 1[temp](https://miro.medium.com/max/1398/1*V9cSmKN2Hha3YB9QJfbZcA.jpeg)
+  
 <div dir="rtl">  
 ورودي:
 </div>
@@ -46,7 +49,9 @@ Pattern found at position: 10
 
 Pattern found at position: 18
 
+
 <div dir="rtl">
+  
 ### بهترين و بدترين حالت محاسباتي:
 
 بهترين حالت محاسباتي زماني اتفاق ميافتد که هيچکدام از کارکتر هاي متن با کارکتر ابتدايي الگو تطابق نداشته باشد. در اينصورت درجه محاسباتي برابر با O(n) خواهد بود.
@@ -72,6 +77,7 @@ T = "DDDDD";
 ```
 
 <div dir="rtl">
+  
 ### مزايا:
 
 - عدم نياز به پيش پردازش
